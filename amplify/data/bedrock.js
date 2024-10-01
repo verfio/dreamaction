@@ -56,9 +56,28 @@ export function request(ctx) {
     },
   };
 }
+// ... existing code ...
 
 export function response(ctx) {
+  // Check if the result body exists and is a string
+  if (typeof ctx.result.body === 'string') {
+    try {
+      // Parse the JSON string
+      const parsedBody = JSON.parse(ctx.result.body);
+      
+      // Check if the parsed body has a 'content' property
+      if (parsedBody && parsedBody.content) {
+        return {
+          body: parsedBody.content
+        };
+      }
+    } catch (error) {
+      console.error('Error parsing JSON:', error);
+    }
+  }
+  
+  // If parsing fails or the expected structure is not found, return the raw body
   return {
-    body: ctx.result.body,
+    body: ctx.result.body || 'No content available'
   };
 }
