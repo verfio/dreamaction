@@ -30,7 +30,7 @@ export default function Home() {
         <h1 className=" text-4xl  font-bold  text-gray-900 sm:text-6xl ">
           Meet Your Personal <span className=" text-blue-600"> DreamAction AI </span>
           <p className=" mt-10 font-medium   text-lg  max-w-prose text-gray-900 ">
-            Simply type few elements of your dream and AI will explain it to you with actionable items suggested 
+            Simply type few elements of your dream and AI will explain it to you
           </p>
         </h1>
       </div>
@@ -45,7 +45,7 @@ export default function Home() {
             id="ingredients"
             name="ingredients"
             required
-            placeholder="use your favorite language"
+            placeholder="Use any language"
             className="border border-black  text-gray-900 p-4 rounded-lg max-w-full w-full text-xl "
           />
           <button
