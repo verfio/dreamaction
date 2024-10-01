@@ -30,7 +30,7 @@ export default function Home() {
         <h1 className=" text-4xl  font-bold  text-gray-900 sm:text-6xl ">
           Meet Your Personal <span className=" text-blue-600"> DreamAction AI </span>
           <p className=" mt-10 font-medium   text-lg  max-w-prose text-gray-900 ">
-            Simply type few elements of your dream and AI will explain it to you
+            Simply type few elements of your dream and AI will define action items
           </p>
         </h1>
       </div>
