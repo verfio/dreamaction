@@ -26,10 +26,9 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center  p-24  m-auto ">
-      <div className=" pb-10 mx-auto text-center flex flex-col items-start -center max-w-3xl">
+      <div className=" pb-10 mx-auto text-center flex flex-col items-start -center max-w-2xl">
         <h1 className=" text-4xl  font-bold  text-gray-900 sm:text-6xl ">
-          Meet Your Personal 
-          <span className=" text-blue-600"> Sparkmage MTG Assistant </span>
+          Meet Your Personal <span className=" text-blue-600">MTG Assistant </span>
           <p className=" mt-10 font-medium   text-lg  max-w-prose text-gray-900 ">
             Deck Ideas, Card Interactions, Financial Insights
           </p>
