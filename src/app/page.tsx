@@ -45,7 +45,7 @@ export default function Home() {
             id="ingredients"
             name="ingredients"
             required
-            placeholder="Use any language"
+            placeholder="Ask me anything. Use any language."
             className="border border-black  text-gray-900 p-4 rounded-lg max-w-full w-full text-xl "
           />
           <button
@@ -59,7 +59,7 @@ export default function Home() {
       {loading ? (
         <div className="flex flex-col items-center gap-4 w-1/2  mx-auto ">
           <h2 className="m-10 font-medium   text-xl   max-w-prose text-blue-600 ">
-            Wait for it...
+            Thinking...
           </h2>
 
         </div>
