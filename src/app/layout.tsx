@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "DreamAction AI",
-  description: "Meet Your Personal DreamAction AI",
+  title: "Sparkmage",
+  description: "Meet Your Personal MTG Assistant",
 };
 
 export default function RootLayout({
